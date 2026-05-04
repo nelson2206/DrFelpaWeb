@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Felpa | Unidad de Cuidados Afectivos</title>
+    <meta name="description" content="Especialistas en la restauración afectiva y técnica de peluches. Unidad de Cuidados Afectivos liderada por la Dra. Ani.">
+    <meta name="keywords" content="restauración de peluches, lavado de juguetes, reparación de muñecos, clínica de juguetes, Dr. Felpa">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <span>🧸</span> Dr. Felpa
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Tratamientos</a></li>
+            <li><a href="#doctora">La Especialista</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="badge">Unidad de Cuidados Afectivos</span>
+                    <h1>Dándole una segunda vida a tus mejores amigos</h1>
+                    <p>En <strong>Dr. Felpa</strong>, no solo reparamos juguetes; restauramos los recuerdos y el afecto que viven en ellos. Cada paciente recibe un tratamiento personalizado liderado por la Dra. Ani.</p>
+                    <div class="hero-btns">
+                        <a href="#reservas" class="btn-primary">Agendar Consulta Médica</a>
+                        <a href="#servicios" class="btn-secondary">Ver Tratamientos</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="servicios">
+            <div class="section-header">
+                <h2>Nuestros Tratamientos</h2>
+                <p>Especialidades técnicas y afectivas para la recuperación total de tus compañeros.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">🪡</span>
+                    <h3>Cirugía Estética</h3>
+                    <p>Reparamos desgarros, costuras abiertas y extremidades que necesitan volver a casa.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🧼</span>
+                    <h3>Spa Terapéutico</h3>
+                    <p>Lavado profundo con productos hipoalergénicos y eliminación de olores persistentes.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🩹</span>
+                    <h3>Cuidados Críticos</h3>
+                    <p>Restauración delicada de peluches antiguos, vintage o con daños estructurales severos.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">✨</span>
+                    <h3>Renovación Total</h3>
+                    <p>Cambio de relleno premium, ojos nuevos y detalles que lo harán lucir como el primer día.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Doctor Ani -->
+        <section class="about" id="doctora">
+            <div class="about-container">
+                <div class="about-image"></div>
+                <div class="about-content">
+                    <h2>La Especialista: Dra. Ani</h2>
+                    <p>Como jefa de la <strong>Unidad de Cuidados Afectivos</strong>, Ani entiende que un peluche no es solo un objeto, sino un compañero de vida. Con años de experiencia en técnicas de restauración técnica, combina la precisión de un artesano con la empatía de un médico.</p>
+                    <p>Su filosofía en <strong>Dr. Felpa</strong> es que cada paciente tiene una historia única que merece ser preservada con el mayor de los cuidados.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section class="booking" id="reservas">
+            <div class="section-header">
+                <h2>Agendar Consulta en Dr. Felpa</h2>
+                <p>Cuéntanos qué le sucede a tu paciente y reserva su lugar en nuestra unidad.</p>
+            </div>
+            <div class="booking-container">
+                <form id="booking-form">
+                    <div class="form-group">
+                        <label for="name">Tu Nombre</label>
+                        <input type="text" id="name" placeholder="Ej: Juan Pérez" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="toy-name">Nombre del Paciente</label>
+                        <input type="text" id="toy-name" placeholder="Ej: Osito Teddy" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="symptom">Síntoma Principal</label>
+                        <select id="symptom" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="desgarro">Desgarro o costura abierta</option>
+                            <option value="suciedad">Necesita un baño (Spa)</option>
+                            <option value="relleno">Falta de relleno</option>
+                            <option value="total">Restauración completa</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Fecha de Recepción</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group full">
+                        <label for="photo">Subir foto del paciente</label>
+                        <input type="file" id="photo" accept="image/*">
+                    </div>
+                    <div class="form-group full">
+                        <label for="notes">Notas médicas adicionales</label>
+                        <textarea id="notes" rows="4" placeholder="Cuéntanos más detalles sobre lo que necesita tu peluche..."></textarea>
+                    </div>
+                    <div class="form-group full">
+                        <button type="submit" class="btn-primary">Enviar Diagnóstico a Dr. Felpa</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="section-header">
+                <h2>Historias de Éxito</h2>
+                <p>Pacientes que volvieron a casa listos para más abrazos.</p>
+            </div>
+            <div class="testimonial-track">
+                <div class="testimonial-card">
+                    <p>"Mi osito de 30 años volvió a tener vida. El Spa terapéutico fue increíble, huele a flores."</p>
+                    <strong>- Mariana S.</strong>
+                </div>
+                <div class="testimonial-card">
+                    <p>"La cirugía estética fue impecable. No se nota dónde estaba el desgarro. Gracias Ani."</p>
+                    <strong>- Roberto G.</strong>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Excelente trato en Dr. Felpa. Me mantuvieron informado de la evolución de mi conejo."</p>
+                    <strong>- Lucía M.</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dr. Felpa - Unidad de Cuidados Afectivos. Restaurando abrazos con amor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
