@@ -277,7 +277,7 @@ nav {
 .about-image {
     width: 100%;
     height: 600px;
-    background: url('ani.jpg') no-repeat center center;
+    background: url('ani.jpg') no-repeat center 15%; /* Focus more on the face (usually in top part) */
     background-size: cover;
     border-radius: 40px;
     box-shadow: var(--soft-shadow);
